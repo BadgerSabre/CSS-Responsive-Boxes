@@ -1,3 +1,21 @@
 body {
   background: blanchedalmond;
 }
+.container {
+  display: flex;
+}
+.a {
+  width: 200px;
+  height: 200px;
+  background: green;
+}
+.b {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+.c {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
