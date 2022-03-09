@@ -44,5 +44,23 @@ body {
 }
 
 @media (min-width: 600px) {
-
+  .b {
+    max-width: 60%;
+  }
+  .f {
+    order: 3;
+    width: 30%;
+  }
+  .c {
+    order: 4;
+    max-width: 17%;
+  }
+  .d {
+    order: 5;
+    max-width: 17%;
+  }
+  .e {
+    order: 6;
+    max-width: 17%;
+  }
 }

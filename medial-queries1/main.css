@@ -24,7 +24,7 @@ body {
   background: blue;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   .container {
     flex-direction: row;
     flex-wrap: wrap;
