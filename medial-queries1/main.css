@@ -1,21 +1,38 @@
+* {
+  border: 1px solid black;
+}
+
 body {
   background: blanchedalmond;
+  margin: 0;
+  text-align: center;
 }
 .container {
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 .a {
-  width: 200px;
-  height: 200px;
+  flex-grow: 2;
   background: green;
 }
 .b {
-  width: 200px;
-  height: 200px;
+  min-height: 60vh;
   background: red;
+  flex-grow: 5;
 }
 .c {
-  width: 200px;
-  height: 200px;
+  flex-grow: 2;
   background: blue;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
 }
