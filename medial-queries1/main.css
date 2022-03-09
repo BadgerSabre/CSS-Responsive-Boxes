@@ -11,20 +11,22 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: space-between;
 }
 .a {
   flex-grow: 2;
+  margin: 10px;
   background: green;
 }
 .b {
   min-height: 60vh;
   background: red;
   flex-grow: 5;
+  margin: 10px;
 }
 .c {
   flex-grow: 2;
   background: blue;
+  margin: 10px;
 }
 
 @media (min-width: 600px) {
@@ -34,5 +36,10 @@ body {
   }
   .a {
     width: 100%;
+    margin: 10px;
+    flex-grow: 3;
+  }
+  .c {
+    flex-grow: 1;
   }
 }

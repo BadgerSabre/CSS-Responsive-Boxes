@@ -1,3 +1,50 @@
 body {
   background: papayawhip;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.a {
+  background: red;
+  flex-grow: 2;
+  flex-direction: column;
+}
+.b {
+  background: blue;
+  flex-grow: 5;
+  flex-direction: column;
+}
+.c {
+  background: green;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 30vh;
+  min-height: 300px;
+}
+.d {
+  background: yellow;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 30vh;
+  min-height: 300px;
+}
+.e {
+  background: chocolate;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 30vh;
+  min-height: 300px;
+}
+.f {
+  background: teal;
+  flex-grow: 2;
+  flex-direction: column;
 }
