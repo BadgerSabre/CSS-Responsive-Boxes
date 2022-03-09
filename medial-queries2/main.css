@@ -7,42 +7,42 @@ body {
   display: flex;
   min-height: 100vh;
   flex-wrap: wrap;
+  margin: 10px;
+  gap: 15px;
 }
 
 .a {
   background: red;
   flex-grow: 2;
   width: 100%;
-  margin: 10px;
 }
 .b {
   background: blue;
   flex-grow: 5;
   width: 100%;
   min-height: 25vh;
-  margin: 10px;
 }
 .c {
   background: green;
   flex-grow: 1;
   width: 25%;
-  margin: 10px;
 }
 .d {
   background: yellow;
   flex-grow: 1;
   width: 25%;
-  margin: 10px;
 }
 .e {
   background: chocolate;
   flex-grow: 1;
   width: 25%;
-  margin: 10px;
 }
 .f {
   background: teal;
   flex-grow: 2;
   width: 100%;
-  margin: 10px;
+}
+
+@media (min-width: 600px) {
+
 }
