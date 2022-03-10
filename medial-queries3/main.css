@@ -1,3 +1,35 @@
 body {
   background: peachpuff;
+  margin: 0;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 15px;
+}
+.a {
+  background: red;
+}
+.b {
+  background: blue;
+}
+.c {
+  background: green;
+}
+.d {
+  background: teal;
+}
+.e {
+  background: pink;
+}
+.f {
+  background: chocolate;
+}
+.g {
+  background: slategray;
+}
+.h {
+  background: orange;
 }
