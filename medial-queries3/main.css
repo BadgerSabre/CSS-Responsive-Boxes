@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 body {
   background: peachpuff;
   margin: 0;
@@ -5,31 +9,75 @@ body {
 .container {
   display: flex;
   min-height: 100vh;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   margin: 10px;
   gap: 15px;
 }
 .a {
   background: red;
+  flex-grow: 2;
+  width: 100%;
 }
 .b {
   background: blue;
+  flex-grow: 1;
+  width: 30%;
 }
 .c {
   background: green;
+  flex-grow: 1;
+  width: 30%;
 }
 .d {
   background: teal;
+  flex-grow: 1;
+  width: 30%;
 }
 .e {
   background: pink;
+  flex-grow: 1;
+  width: 30%;
 }
 .f {
   background: chocolate;
+  flex-grow: 1;
+  width: 30%;
 }
 .g {
   background: slategray;
+  flex-grow: 1;
+  width: 30%;
 }
 .h {
   background: orange;
+  flex-grow: 5;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .h {
+    order: 5;
+    width: 22%;
+  }
+  .e {
+    order: 6;
+    width: 22%;
+  }
+  .f {
+    order: 7;
+    width: 22%;
+  }
+  .g {
+    order: 8;
+    width: 22%;
+  }
+  .b {
+    width: 22%;
+  }
+  .c {
+    width: 22%;
+  }
+  .d {
+    width: 22%;
+  }
 }
