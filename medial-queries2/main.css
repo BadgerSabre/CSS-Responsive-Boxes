@@ -51,17 +51,20 @@ body {
     max-width: 60%;
   }
   .f {
-    display: flex;
-    flex-direction: column;
     flex-grow: 5;
+    order: 3;
+    max-width: 30%;
   }
   .c {
     max-width: 17%;
+    order: 4;
   }
   .d {
     max-width: 17%;
+    order: 5;
   }
   .e {
     max-width: 17%;
+    order: 6;
   }
 }
