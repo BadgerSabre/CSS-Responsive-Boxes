@@ -6,6 +6,13 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  gap: 10px;
+}
+
 .container {
   display: flex;
   min-height: 100vh;
@@ -47,24 +54,11 @@ body {
 }
 
 @media (min-width: 600px) {
-  .b {
-    max-width: 60%;
+  .wrapper {
+    max-width: 70%;
+    max-height: 80%;
   }
   .f {
-    flex-grow: 5;
-    order: 3;
-    max-width: 30%;
-  }
-  .c {
-    max-width: 17%;
-    order: 4;
-  }
-  .d {
-    max-width: 17%;
-    order: 5;
-  }
-  .e {
-    max-width: 17%;
-    order: 6;
+    max-width: 28%;
   }
 }
