@@ -6,6 +6,14 @@ body {
   background: peachpuff;
   margin: 0;
 }
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  gap: 10px;
+}
+
 .container {
   display: flex;
   min-height: 100vh;
@@ -55,29 +63,14 @@ body {
 }
 
 @media (min-width: 600px) {
+  .wrapper {
+    max-width: 70%;
+    max-height: 80%;
+  }
   .h {
-    order: 5;
-    width: 22%;
+    max-width: 28%;
   }
-  .e {
-    order: 6;
-    width: 22%;
-  }
-  .f {
-    order: 7;
-    width: 22%;
-  }
-  .g {
-    order: 8;
-    width: 22%;
-  }
-  .b {
-    width: 22%;
-  }
-  .c {
-    width: 22%;
-  }
-  .d {
-    width: 22%;
+  .a {
+    flex-grow: 3;
   }
 }
